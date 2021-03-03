@@ -30,12 +30,9 @@ function Nav() {
             
             <img  className = "nav__logo"   onClick ={() => history.push("/")} src = {cinelfix} alt = "no"/>
              <div className = "nav__avatar">
-             {/* <Avatar   onClick ={() => history.push("/profile")}
-              src = {user.photoUrl} alt = ""/> */}
-              hello
-            <div>
-
-            </div>
+             <Avatar   onClick ={() => history.push("/profile")}
+              src = {user.photoUrl} alt = ""/>
+            
              </div>
             </div>
 
