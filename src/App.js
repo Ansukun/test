@@ -37,23 +37,23 @@ function App() {
   return (
     <div className="app">
       
-      {/* <Router>
-        {!user? ( */}
-          {/* <LoginScreen/>
+      <Router>
+        {!user? (
+          <LoginScreen/>
         ):(
            <Switch>
-          <Route  exact path="/"> */}
+          <Route  path="/">
           <HomeScreen/>
-          {/* </Route>
+          </Route>
           <Route path = "/profile">
              <ProfileScreen/>
              </Route>
         </Switch>
-        ) */}
-        {/* }
+        )
+        }
         
      
-    </Router> */}
+    </Router>
     </div>
   );
 }

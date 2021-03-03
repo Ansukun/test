@@ -1,7 +1,7 @@
 {
   "name": "netflix",
   "version": "0.1.0",
-  "homepage": "https://Ansukun.github.io/OTT-website",
+  "homepage": "https://Ansukun.github.io/test",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
