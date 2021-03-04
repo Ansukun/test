@@ -42,7 +42,7 @@ function App() {
           <LoginScreen/>
         ):(
            <Switch>
-          <Route  path="/">
+          <Route  exact path="/">
           <HomeScreen/>
           </Route>
           <Route path = "/profile">
