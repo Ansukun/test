@@ -43,7 +43,7 @@ function SignInScreen() {
                <button type = "submit" onClick ={signIn}  >
                    sign In
                </button>
-               <h4> <span className ="signupscreen__gray">New to CineFlix? </span> 
+               <h4> <span className ="signupscreen__gray">New Admin? </span> 
                <span className = "signupscreen__link" onClick = {register}>Sign Up Now </span> </h4>
 
             </form>

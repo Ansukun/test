@@ -1,7 +1,7 @@
 import{ React, useState,useEffect} from 'react'
 import "./LoginScreen.css"
 import bg from "../screens/baground.jpg"
-import cinelfix from "../cineflix.png"
+import cinelfix from "../NextStack Logo.png"
 import SignupScreen from  "../screens/SignupScreen"
 
 function LoginScreen() {
@@ -16,26 +16,27 @@ function LoginScreen() {
                 <div className = "loginScreen__gradient"/>
             </div>
             <div className = "loginScreen__body">
-                {signIn? (
+            
                 <SignupScreen/>
-                ):
-                (
+               
                     <>
-                    <h1>Unlimited films,Tv programmes and more Hurry up</h1>
-                     <h2>watch anywhere cancel anytime </h2>
-                     <h3> ready to watch enter your email to create or restart your membership</h3>
+                    <h1>Welcome to NextStacks Invoice App</h1>
+                     
                      <div className = "loginScreen__input">
                     <form>
-                        <input type = "email" placeholder = "email Address" />
                         <button onClick ={() => setSignIn(true)} className = "login__button">
                             Get Started
                         </button>
                     </form>
+                   
                      </div>
                      </>
-                )}
+                
+                
+               
                 
             </div>
+           
 
         </div>
     )

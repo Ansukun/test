@@ -1,8 +1,8 @@
 .signupScreen{
     max-width: 300px;
     padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    margin: auto;
     background: rgba(0,0,0,0.85);
     border-radius: 10px;
     animation-duration: 3s;
@@ -21,7 +21,13 @@
     height: 40px;
     margin-bottom: 14px;
     border-radius: 10px;
+    color:black;
     border: none;
+}
+
+.signupScreen>form>button:hover{
+
+    background-color: #09389c;
 }
 
 
@@ -30,7 +36,7 @@
     padding: 16px 20px;
     font-size: 1 rem;
     border-radius: 5px;
-    background-color: #e50914;
+    background-color: #1f469b;
     color: white;
     border: none;
     cursor: pointer;
@@ -39,20 +45,21 @@
 
 }
 
-
 .signupScreen>form>h1{
     text-align: center;
+    color: cornsilk;
     margin-bottom: 25px;
 }
 
 .signupScreen>form>h4{
     text-align: left;
+    color: cornsilk;
     margin-top: 30px;
     
 }
 
 .signupscreen__gray{
-    color: gray;
+    color: cornsilk;
 }
 
 .signupscreen__link:hover{

@@ -1,9 +1,13 @@
 import React,{useEffect} from 'react';
 import { useDispatch, useSelector} from "react-redux"
 import './App.css';
-import HomeScreen from "./screens/HomeScreen"
+import HomeScreen from "./screens/AppBar"
+import Footer from "./components/Footer"
+import HeroSection from "./components/HeroSection";
 import LoginScreen from "./screens/LoginScreen"
+import SignupScreen from "./screens/SignupScreen"
 import ProfileScreen from "./screens/ProfileScreen"
+import AddClient from "./components/ClientDetails"
 import {auth} from "./firebase"
 import {logout,login, selectUser} from "./features/userSlice"
 import {
@@ -45,9 +49,10 @@ function App() {
           <Route  exact path="/">
           <HomeScreen/>
           </Route>
-          <Route path = "/profile">
-             <ProfileScreen/>
+          <Route path = "/AddClient"  component = {AddClient}>
+             <AddClient/>
              </Route>
+             
         </Switch>
         )
         }

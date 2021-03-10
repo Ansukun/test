@@ -1,7 +1,7 @@
 .loginScreen{
     height: 100%;
     position: relative;
-    background-image: url('https://www.centro.net/wp-content/uploads/2020/02/82-1362x442.jpg');
+    background-image: url("https://i.pinimg.com/originals/ae/48/66/ae4866824012b855e82a358960c1d0d6.jpg");
     background-size: cover;
     border: 2px solid black;
     /* height: 1000px;
@@ -15,8 +15,10 @@
     position: fixed;
     left: 0;
     top: 8px;
-    width: 150px;
-    height: 40px;
+    width: 80px;
+    height: auto;
+    float: left;
+    display: flex;
     padding-left: 20px;
     cursor: pointer;
 }
@@ -35,6 +37,7 @@
 }
 
 
+
 .loginScreen__button{
 
     position: fixed;
@@ -43,7 +46,7 @@
     padding: 10px 20px;
     font-size: 1 rem;
     color: white;
-    background-color: #e50914;
+    background-color: #1f469b;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -100,7 +103,7 @@
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    background-color: #e50914;
+    background-color: #1f469b;
     color: white;
     border: none;
     border-radius: 10px;

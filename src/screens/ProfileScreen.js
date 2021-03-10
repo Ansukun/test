@@ -1,7 +1,7 @@
 import React from 'react'
 import "./ProfileScreen.css"
 import {Avatar} from "@material-ui/core"
-import Nav from "../Nav"
+
 import { useSelector } from 'react-redux'
 import { selectUser } from '../features/userSlice'
 import { auth } from '../firebase'
@@ -9,7 +9,7 @@ function ProfileScreen() {
     const user = useSelector(selectUser);
     return (
         <div className = "profileScreen">
-            <Nav/>
+          
             <div className = "profileScreen__body">
              <h1> Edit your Profile</h1>
              <div className = "profileScreen__info">
